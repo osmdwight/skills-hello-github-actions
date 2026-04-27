@@ -16,9 +16,7 @@ env:
   REVIEW_FILE: ".github/steps/x-review.md"
 
 jobs:
-  find_exercise:
-    name: Find Exercise Issue
-    uses: skills/exercise-toolkit/.github/workflows/find-exercise-issue.yml@v0.6.0
+ 
 
   post_review_content:
     name: Post review content
